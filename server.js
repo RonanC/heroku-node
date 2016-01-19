@@ -20,3 +20,8 @@ app.get('/', function(req, res){
 app.listen(port, function(){
   console.log('Our app is running on port: '+ port);
 });
+
+// live reload
+livereload = require('livereload');
+server = livereload.createServer();
+server.watch(__dirname + "/*/*/*.css");

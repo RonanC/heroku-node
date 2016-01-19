@@ -13,8 +13,49 @@ img.displayed {
 }
 
 .center {
-    margin: auto;
-    width: 20%;
-    /*border: 3px solid #73AD21;*/
-    padding: 10px;
+  margin: auto;
+  width: 20%;
+  /*border: 3px solid #73AD21;*/
+  padding: 10px;
 }
+
+a {
+  color:#2a9fd6;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+a:hover {
+  color:#05577d;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3em;
+  color: black;
+}
+
+h2 a {
+  color: black;
+}
+
+h2 a:hover {
+  color: #4f4f4f;
+}
+
+ul {
+  font-family: sans-serif;
+}
+
+/* h2 remove styling */
+/*h2 a:visited {
+text-decoration:none;
+}
+
+h2 a:active {
+text-decoration:none;
+}*/
