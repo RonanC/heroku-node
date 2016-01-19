@@ -19,6 +19,17 @@ img.displayed {
   padding: 10px;
 }
 
+.tweet {
+  margin: auto;
+  width: 30%;
+  /*border: 3px solid #73AD21;*/
+  padding: 10px;
+}
+
+.tweet a {
+
+}
+
 a {
   color:#2a9fd6;
   -o-transition:.5s;
