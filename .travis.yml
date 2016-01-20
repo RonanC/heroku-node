@@ -13,7 +13,7 @@ deploy:
     repo: RonanC/webdevstarterpack
 
 before_script:
- - "npm start"
+ - "screen -d -m npm start"
 
 # services:
 #   - mongodb
