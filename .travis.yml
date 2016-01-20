@@ -12,11 +12,13 @@ deploy:
   on:
     repo: RonanC/webdevstarterpack
 
+before_install:
+ - "sudo apt-get install screen"
+
 before_script:
  - "echo \"before script\""
- - "sudo apt-get install screen"
  - "screen -d -m npm start"
 
 # services:
 #   - mongodb
-# sudo: false
+sudo: true
