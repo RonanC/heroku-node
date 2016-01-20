@@ -1,14 +1,15 @@
 {
-  "name": "heroku-node",
+  "name": "webdevstarterpack",
   "version": "1.0.0",
-  "description": "Our sample node express heroku app",
+  "description": "Web Dev Starter Pack - Website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RonanC/heroku-node.git"
+    "url": "git+https://github.com/RonanC/webdevstarterpack.git"
   },
   "keywords": [
     "node",
