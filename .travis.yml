@@ -14,10 +14,13 @@ deploy:
 
 before_install:
  - "sudo apt-get install screen"
+ - "pwd"
 
 before_script:
+  - "pwd"
  - "echo \"before script\""
  - "screen -d -m npm start"
+- "pwd"
 
 # services:
 #   - mongodb
