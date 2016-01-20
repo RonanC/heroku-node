@@ -13,6 +13,8 @@ deploy:
     repo: RonanC/webdevstarterpack
 
 before_script:
+ - "echo \"before script\""
+ - "sudo apt-get install screen"
  - "screen -d -m npm start"
 
 # services:
