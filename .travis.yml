@@ -25,8 +25,11 @@ before_script:
  - "export DISPLAY=:99.0"
  - "sh -e /etc/init.d/xvfb start"
  - npm install connect
- - sudo node test/js/server.js ../../ 80 &
+ - sudo node server.js ../../ 80 &
  - sleep 5
+
+script:
+  - "npm test"
 
 # services:
 #   - mongodb
