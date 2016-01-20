@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "./node_modules/.bin/jasmine-node ./spec/*.js",
+    "test": "./node_modules/.bin/jasmine-node spec/startServerSpec.js",
     "stop": "^C"
   },
   "repository": {
