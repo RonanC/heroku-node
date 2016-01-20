@@ -4,7 +4,8 @@
   "description": "Web Dev Starter Pack - Website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "express": "^4.13.3"
   },
   "devDependencies": {
-    "livereload": "^0.4.0"
+    "jasmine-node": "^1.14.5",
+    "livereload": "^0.4.0",
+    "request": "^2.67.0"
   }
 }
