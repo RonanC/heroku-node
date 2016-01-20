@@ -11,4 +11,10 @@ deploy:
   app: webdevstarterpack
   on:
     repo: RonanC/webdevstarterpack
-sudo: false
+
+before_script:
+ - "npm start"
+
+# services:
+#   - mongodb
+# sudo: false
