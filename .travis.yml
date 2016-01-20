@@ -37,3 +37,7 @@ script:
 # services:
 #   - mongodb
 # sudo: true
+
+notifications:
+  email:
+    - hi@ronanconnolly.ie
