@@ -1,0 +1,190 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Web Dev Starter Pack
+
+        // CSS
+        // Load Bootstrap
+        link(rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css")
+
+        // ionicons
+        link(rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
+
+        // custom style
+        link(rel="stylesheet" href="css/style.css")
+
+        // favicon
+        link(rel="shortcut icon" href="images/favicon.ico" type="image/x-icon")
+        
+        // stars
+        // <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
+    body
+        .container
+            .jumbotron
+                h1 Web Dev Starter Pack
+                br
+                p Web development, it's all about that JavaScript.
+                br
+                p.
+                    Once learned you can go onto frameworks like the ones involved with the MEAN stack. <br/>
+                    Then you learn some tools like Git and how to use services like Heroku. <br/>
+                    At this stage you check out reading material and find frameworks that help you do what you need to do.
+                br
+                p There is always something new and cool waiting around the corner.
+                br
+                p 
+                    small(style="color:grey") For complete beginners, just check out the items with stars beside them.
+                br
+
+                // boostrap columns
+                .row
+                    .col-md-3.display
+                        h4 Favourite Code:
+                        ul
+                            li Web Dev 
+                            li Java 
+                            li Python 
+                            li C 
+
+                    .col-md-6
+                        img(src="https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2014/11/desktop-opt.jpg" class="img-rounded img-responsive" alt="Designer Work Desk")
+                    
+                    .col-md-3.display
+                        h4 Favourite Areas:
+                        ul
+                            li IoT
+                            li AI
+                            li Apps
+                            li Cloud
+
+
+                br
+                br
+                h2 Resources
+                h3 Tutorial sites:
+                p
+                    a(href="https://scotch.io") Scotch.io
+                    small  nice short tutorials
+                    img(src="images/starO.png" alt="star")
+                p
+                    a(href="https://www.codeschool.com/") Code School
+                    small  expensive but top quality video courses
+                    img(src="images/starO.png" alt="star") 
+                p
+                    a(href="https://www.codecademy.com/learn") Code Academy
+                    small  free interactive courses
+                p
+                    a(href="https://www.thenewboston.com/") The New Boston
+                    small  video cast tutorials, the guy is very funny
+                
+                br
+                h3 Articles
+                p
+                    a(href="https://www.smashingmagazine.com") Smashing Magazine
+                    small  consistent quality material
+                    img(src="images/starO.png" alt="star") 
+                    
+                br
+                h3 People
+                p
+                    a(href="http://chriscoyier.net/") Chris Coyier
+                    small  huge influence in web dev design
+                p
+                    a(href="http://www.paulirish.com/") Paul Irish
+                    small  big influence in web dev code (part of the chrome team)
+                p
+                    a(href="http://johnpapa.net/") John Papa
+                    small  microsoft evangelist who has contributed to the angular/javascript and VSCode projects
+                
+                br
+                h3 Books
+                p
+                    a(href="http://eloquentjavascript.net/") Eloquent JavaScript
+                    small  the best place to learn JS
+                    img(src="images/starO.png" alt="star") 
+                p
+                    a(href="docs/Getting_MEAN_with_Mo.pdf" target="_blank") Getting Mean
+                    small  covers all aspects of the MEAN stack
+
+                br
+                h3 Editors
+                p
+                    a(href="http://eloquentjavascript.net/") Eloquent JavaScript
+                    small  the best place to learn JS
+                    img(src="images/starO.png" alt="star") 
+                p
+                    a(href="docs/Getting_MEAN_with_Mo.pdf" target="_blank") Getting Mean
+                    small  covers all aspects of the MEAN stack
+                
+                h3 Other
+                
+                h2 Information
+                h3: a(href="https://git-scm.com/") Git
+                
+                
+                h3: a(href="https://git-scm.com/") Heroku
+                
+                
+                h3: a(href="https://git-scm.com/") Linux Mint
+                
+                
+                h3 Linux Advantages over Windows
+                
+                
+                h2: a(href="http://mean.io/#!/") MEAN Stack
+                h3: a(href="https://www.mongodb.org/") Mongo
+                h3: a(href="http://expressjs.com/") Express
+                h3: a(href="https://angularjs.org/") Angular
+                h3: a(href="https://nodejs.org/en/") Node
+                
+                br
+                br
+                h2 Cool Stuff
+                h3: a(href="http://johnny-five.io/") Johnny Five
+                p A JavaScript wrapper for hardware like Arduino.
+                
+                br
+                br
+                a(href="https://github.com/RonanC#disqus_thread").btn.btn-primary.btn-lg My Github    
+                    i.icon.ion-social-github
+            
+            // below all inside container
+            br
+            br
+            br
+            br
+            // Discus comments 
+            div(id="disqus_thread")
+            script.
+                /**
+                * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+
+                s.src = '//webdevstarterpack.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+        
+            noscript
+                Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+
+
+            // end of discus
+            script(id="dsq-count-scr" src="//webdevstarterpack.disqus.com/count.js" async)
+
+        // live reload
+        // <script>
+        // document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+        // ':35729/livereload.js?snipver=1"></' + 'script>')
